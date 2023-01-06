@@ -36,6 +36,13 @@ struct MainView: View {
                 .background(Color.mint)
                 .cornerRadius(10)
             }
+            .padding(20)
+            
+            Button(action: {
+                
+            }){
+                Text("reset")
+            }
         }
     }
     
